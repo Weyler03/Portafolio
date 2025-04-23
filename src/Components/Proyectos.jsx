@@ -2,11 +2,13 @@ function Proyectos() {
   const proyectos = [
     {
       titulo: "Galasys",
+      descripcion:"Este proyecto fue desarrollado como parte de mi trabajo en LogicOne. Mi rol consistió en el desarrollo frontend con React Vite y a implementación de UI responsive.",
       imagen: "/images/Galasys-removebg.png",
       enlace: "http://galasys.com.do",
     },
     {
       titulo: "Ventafiel",
+      descripcion:"Este proyecto fue desarrollado como parte de mi trabajo en Tennos Business. Mi rol consistió en el desarrollo frontend con NextJs y creacion de apis. El diseño visual fue realizado por el equipo de diseño interno.",
       imagen: "/images/Ventafiel.png",
       enlace: "https://www.ventafiel.com",
     },
@@ -19,9 +21,9 @@ function Proyectos() {
         {proyectos.map((proyecto, index) => (
           <div
             key={index}
-            className="relative bg-white p-4 rounded-xl shadow-[0_0_15px_rgba(59,130,246,0.4)] w-full max-w-sm mx-auto h-64 flex flex-col transform transition-transform duration-300 hover:scale-105"
+            className="relative bg-white p-4 rounded-xl shadow-[0_0_15px_rgba(59,130,246,0.4)] w-full max-w-sm mx-auto h-80 flex flex-col transform transition-transform duration-300 hover:scale-105"
           >
-            <div className="h-28 flex items-center justify-center mb-3">
+            <div className="h-24 flex items-center justify-center mb-3">
               <img
                 src={proyecto.imagen}
                 alt={`Vista previa de ${proyecto.titulo}`}
@@ -29,7 +31,13 @@ function Proyectos() {
               />
             </div>
 
-            <h3 className="text-lg font-semibold text-gray-800 text-center">{proyecto.titulo}</h3>
+            <h3 className="text-lg font-semibold text-gray-800 text-center mb-1">
+              {proyecto.titulo}
+            </h3>
+
+            <p className="text-sm text-gray-700 text-center mb-3 overflow-y-auto max-h-24 px-1">
+              {proyecto.descripcion}
+            </p>
 
             <a
               href={proyecto.enlace}

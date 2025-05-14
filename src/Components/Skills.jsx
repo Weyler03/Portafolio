@@ -13,7 +13,8 @@ function Skills() {
     { nombre: ".Net", imagen: "/images/dotNet.svg", color: "#512BD4" },
     { nombre: "Postman", imagen: "/images/postman.svg", color: "#FF6C37" },
     { nombre: "Git", imagen: "/images/git.svg", color: "#F05032" },
-    { nombre: "Figma", imagen: "/images/figma.svg", color: "#F24E1E" }
+    { nombre: "Figma", imagen: "/images/figma.svg", color: "#F24E1E" },
+    { nombre: "Jira", imagen: "/images/jira.svg", color: "#2684ff" }
   ]
 
   return (

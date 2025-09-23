@@ -4,6 +4,7 @@ import Proyectos from './Components/Proyectos'
 import Skills from './Components/Skills'
 import Inicio from './Components/Inicio'
 import ScrollToTopButton from './Components/ScrollToTopButton'
+import Certificates from './Components/Certificates'
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
       </div>
       <div id="skills">
         <Skills />
+      </div>
+      <div id="certificates">
+        <Certificates />
       </div>
       <ScrollToTopButton/>
     </>

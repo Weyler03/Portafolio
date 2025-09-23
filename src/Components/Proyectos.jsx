@@ -12,6 +12,12 @@ function Proyectos() {
       imagen: "/images/Ventafiel.png",
       enlace: "https://www.ventafiel.com",
     },
+    {
+      titulo: "DocuPro",
+      descripcion:"Este es un proyecto personal que surgio con el objetivo de ayudar a jovenes que quieren estructurar su cv por primera vez y personas que quieran cambiar de formato y darle otro diseño a su hoja de vida. Le añadi un extra de realizar cartas de presentacion y propuestas de empleo.",
+      imagen: "/images/DocuPro.png",
+      enlace: "https://cv-gen-gold.vercel.app/",
+    },
   ];
 
   return (

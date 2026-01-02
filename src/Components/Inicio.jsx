@@ -60,7 +60,7 @@ const Inicio = () => {
 </a>
 
             <a
-              href="https://drive.google.com/file/d/1ECxOnu_g5xCQsbPrJDQBxkylt67DdrUr/view?usp=sharing"
+              href="https://drive.google.com/file/d/1ECxOnu_g5xCQsbPrJDQBxkylt67DdrUr/view?usp=drive_link"
               download
               className="flex items-center gap-1 border border-green-600 px-2 py-1 rounded text-sm text-green-600 hover:text-green-600 hover:bg-green-50 transition"
             >
